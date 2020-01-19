@@ -1,5 +1,7 @@
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+    <meta http-equiv="refresh" content="30; url=#" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Free Arbutrage scanner for hitbtc in DOGE-ETH-BTC</title>
 <meta name="description" content="scan best arbitrage possibility in hitbtc for DOGE-ETH-BTC " />
 </head>
@@ -26,6 +28,7 @@ $ask2=$dataETHBTC['ask'];
 ?>
 <center>This arbitrage bot work only for DOGEBTC-DOGEETH-ETHBTC ON Hitbtc<br>
 This page refrash every 30 second and try to find profit if find profit more then 0.3% then place one order in each market.<br>
+You can also use cron for auto refrash in backgroud on cloud.<br>
 Default DOGE quantity 20. If have more doge you can replace quantity as per your need.<br> 
 <table><tr><td width="30%"><h3>
 <?php
